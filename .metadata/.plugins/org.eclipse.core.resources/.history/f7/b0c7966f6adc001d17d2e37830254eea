@@ -1,0 +1,8 @@
+package com.in28minutes.springboot.restapi.survey;
+
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+public class SurveyResourceIT {
+
+}

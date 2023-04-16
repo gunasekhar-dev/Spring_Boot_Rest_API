@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RestApiApplicationTests" project="rest-api" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.in28minutes.springboot.restapi.RestApiApplicationTests" time="0.239" displayname="RestApiApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.in28minutes.springboot.restapi.RestApiApplicationTests]">
+    <testcase name="contextLoads" classname="com.in28minutes.springboot.restapi.RestApiApplicationTests" time="0.239" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.in28minutes.springboot.restapi.RestApiApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>
