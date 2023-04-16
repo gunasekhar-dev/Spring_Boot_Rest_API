@@ -1,0 +1,28 @@
+package com.in28minutes.springboot.restapi.survey;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+public class SurveyResourceIT {
+	
+	String str= """
+			{
+    "id": "Question1",
+    "description": "Most Popular Cloud Platform Today",
+    "options": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Oracle Cloud"
+    ],
+    "correctAnswer": "AWS"
+}
+
+			""";
+
+	@Test
+	void retriveSurveyQuestionById_basic() {
+		
+	}
+}
