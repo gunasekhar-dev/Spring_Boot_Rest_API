@@ -1,0 +1,5 @@
+package com.in28minutes.springboot.restapi.survey;
+
+public class Survey {
+
+}

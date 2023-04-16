@@ -1,0 +1,29 @@
+package com.in28minutes.springboot.restapi.survey;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SurveyResource {
+  
+	private SurveyService surveyService;
+	@Autowired
+	public SurveyResource(SurveyService surveyService) {
+		super();
+		this.surveyService = surveyService;
+	}
+	
+	@RequestMapping("/surveys")
+	public List<Survey> retriveAllSurveys(){
+		return surveyService.retriveAllSurveys();
+	}
+	
+	@RequestMapping("/surveys/{surveyId}")
+	public Survey retriveSpecificSurveysById(@PathVariable String surveyId){
+		return surveyService.retriveSurveysById();
+	}
+}
